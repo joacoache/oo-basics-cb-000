@@ -23,7 +23,7 @@ class Book
     @page_count
   end
 
-  def genre(a)
+  def genre=(a)
     @genre = a
   end
 
